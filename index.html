@@ -321,8 +321,9 @@
         <h1>Contact Us</h1>
         <form class="contact-form row" id="5StarArtistryContactForm" name="5StarArtistryContactForm" method="post" data-netlify="true">
             <div class="form-field col x-100">
-                <label for="Subject">Please choose an option:</label>
-                <select id="subject" name="subject" form="5StarArtistryContactForm">
+                <label for="category">Category:</label>
+                <select id="category" name="category" form="5StarArtistryContactForm" required>
+                    <option value="">Choose an option</option>
                     <option value="general">General</option>
                     <option value="support">Support</option>
                 </select>
